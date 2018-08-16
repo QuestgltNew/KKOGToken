@@ -116,8 +116,8 @@ contract KKOGToken is StandardToken {
 
     function KKOGToken(
         ) {
-        balances[msg.sender] = 2000000000000000;               // Give the creator all initial tokens (100000 for example)
-        totalSupply = 2000000000000000;                        // Update total supply (100000 for example)
+        balances[msg.sender] = 10000000000000000;               // Give the creator all initial tokens (100000 for example)
+        totalSupply = 10000000000000000;                        // Update total supply (100000 for example)
         name = "KKOG";                                   // Set the name for display purposes
         decimals = 8;                            // Amount of decimals for display purposes
         symbol = "KKOG";                               // Set the symbol for display purposes
